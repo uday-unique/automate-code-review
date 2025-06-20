@@ -9,6 +9,8 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
+  console.log("About Page Rendered");
+  
     return (
         <section className="space-y-6">
           <H1>About Me</H1>
